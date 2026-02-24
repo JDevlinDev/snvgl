@@ -11,7 +11,9 @@
 - Not portable even slightly: You don't need to worry about what "portable" even means. Just set your SDL and SCA pins via running `idf.py menuconfig` in your project.
 - Simple to use: What the hell is an SSD1306? You don't need to care.
 - Ridigly inflexible: No style system. No fonts. Right now you can just make a point, a line, or a box.
-- Highly Scalable: You can put it on as many ESP32s as you want.
+- Highly Scalable: You can put it on as many ESP32s as you want. That's what 'scalable' means, isn't it? Or am I thinking of 'extensible'?
+- It might be extensible: We'll get the confusion sorted out soon.
+- Just remember it's **non-versatile**: That means it works only on ESP32, and only on a single 128x64 monochrome OLED panel you can easily find on Amazon.
 
 ## Usage
 

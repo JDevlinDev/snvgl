@@ -28,4 +28,4 @@ typedef struct {
  *  - anything else, not okay
  */
 esp_err_t snv_new_panel_1306(snv_panel_t *panel);
-esp_err_t snv_panel_draw_buffer(snv_panel_t *panel);
+esp_err_t snv_panel_send_buffer(snv_panel_t *panel);

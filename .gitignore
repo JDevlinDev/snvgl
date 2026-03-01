@@ -32,4 +32,3 @@ package-lock.json
 # VS Code and project related files
 .vscode
 *.code-workspace
-*.txt

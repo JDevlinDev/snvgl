@@ -1,5 +1,5 @@
 set(srcs
-    "src/snv_dsiplay_io.c"
+    "src/snv_panel_1306.c"
     "src/snv_graphics_lib.c"
 )
 

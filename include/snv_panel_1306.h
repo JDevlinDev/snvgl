@@ -10,9 +10,10 @@
 #include "esp_lcd_types.h"
 #include "esp_err.h"
 
+
 typedef struct {
     /**
-     * @brief OLED
+     * @brief OLED panel type
      */
     esp_lcd_panel_handle_t oled_panel;
     uint8_t *frame_buffer;

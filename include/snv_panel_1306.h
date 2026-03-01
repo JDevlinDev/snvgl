@@ -11,6 +11,9 @@
 #include "esp_err.h"
 
 typedef struct {
+    /**
+     * @brief OLED
+     */
     esp_lcd_panel_handle_t oled_panel;
     uint8_t *frame_buffer;
 } snv_panel_t;
@@ -18,10 +21,11 @@ typedef struct {
 /**
  * @brief Create panel for OLED connected to model SSD1306
  * 
- * @param[in] display OLED panel handle
+ * @param[in] panel OLED panel handle
  * 
  * @return
  *  - ESP_OK    on success
  *  - anything else, not okay
  */
-esp_err_t snv_new_panel_1306(snv_panel_t *display);
+esp_err_t snv_new_panel_1306(snv_panel_t *panel);
+esp_err_t snv_panel_draw_buffer(snv_panel_t *panel);
